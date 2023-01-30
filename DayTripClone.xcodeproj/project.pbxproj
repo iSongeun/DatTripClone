@@ -13,6 +13,7 @@
 		7C3AB3D42983F3F5008C64DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3AB3D22983F3F5008C64DF /* Main.storyboard */; };
 		7C3AB3D62983F3F5008C64DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3AB3D52983F3F5008C64DF /* Assets.xcassets */; };
 		7C3AB3D92983F3F5008C64DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3AB3D72983F3F5008C64DF /* LaunchScreen.storyboard */; };
+		7C3AB3E82985586E008C64DF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AB3E72985586E008C64DF /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7C3AB3D52983F3F5008C64DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3AB3D82983F3F5008C64DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3AB3DA2983F3F5008C64DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3AB3E72985586E008C64DF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7C3AB3CB2983F3F5008C64DF /* DayTripClone */ = {
 			isa = PBXGroup;
 			children = (
+				7C3AB3E72985586E008C64DF /* ProfileViewController.swift */,
 				7C3AB3CC2983F3F5008C64DF /* AppDelegate.swift */,
 				7C3AB3CE2983F3F5008C64DF /* SceneDelegate.swift */,
 				7C3AB3D02983F3F5008C64DF /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				7C3AB3D12983F3F5008C64DF /* ViewController.swift in Sources */,
 				7C3AB3CD2983F3F5008C64DF /* AppDelegate.swift in Sources */,
+				7C3AB3E82985586E008C64DF /* ProfileViewController.swift in Sources */,
 				7C3AB3CF2983F3F5008C64DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W68W6LG48;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DayTripClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W68W6LG48;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DayTripClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
